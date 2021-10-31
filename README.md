@@ -34,7 +34,7 @@ We do not expect that you will complete every task defined below. Each task will
 
 There will be only two required tasks, and multiple optional tasks. You will have 72 hours, from the point that you receive the email with the link to this repository to complete the required tasks and as many optional tasks as you can manage.
 
-After completing each task, create a commit with an appropriate commit message.
+Before beginning, fork this repository to your personal GitHub. After completing each task, create a commit with an appropriate commit message. When you are ready to submit, create a PR on the parent repository with your changes.
 
 ### Required Tasks
 
@@ -51,7 +51,7 @@ After completing each task, create a commit with an appropriate commit message.
 
 2. **Deploy** COUNT-2;  
 
-    > As a DevOps engineer, I need to deploy the React application in a production container orchestration tool. 
+    > As a DevOps engineer, I need to deploy the React application in a production container orchestration cluster. 
 
     - Conditions of Satisfaction
       - A Dockerfile
