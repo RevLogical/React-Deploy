@@ -32,9 +32,9 @@ To run tests you can use `yarn test`, In order for a `Task` to be recognized as 
 
 We do not expect that you will complete every task defined below. Each task will be defined as a typical user story that you would see at RevLogical. As an applicant, it is just as important that you are able to set up your own development environment, as well as read and understand typical user stories and their requirements, as it is to know how to develop. This "assessment" will test your knowledge and understanding of tools that we use at RevLogical, and how we define user stories. 
 
-There will be only two required tasks, and multiple optional tasks. You will have 72 hours, from the point that you receive the email with the link to this repository to complete the required tasks and as many optional tasks as you can manage. We will not fault you, for only being able to complete the required tasks, unless you decide to complete the 2 required tasks within a few hours, and then submit the repo without even attempting the optional tasks.
+There will be only two required tasks, and multiple optional tasks. You will have 72 hours, from the point that you receive the email with the link to this repository to complete the required tasks and as many optional tasks as you can manage.
 
-At the completion of each task you should create a commit with an appropriate commit message.
+Before beginning, fork this repository to your personal GitHub. After completing each task, create a commit with an appropriate commit message. When you are ready to submit, create a PR on the parent repository with your changes.
 
 ### Required Tasks
 
@@ -51,6 +51,12 @@ At the completion of each task you should create a commit with an appropriate co
 
 2. **Deploy** COUNT-2;  
 
+    > As a DevOps engineer, I need to deploy the React application in a production container orchestration cluster. 
+
+    - Conditions of Satisfaction
+      - A Dockerfile
+      - A [draw.io](https://draw.io) deployment architecture
+
 ### Optional Tasks
 
 For Optional tasks, create a new branch called `Optional-Tasks`. Like above each task should have its own commit with an appropriate commit message.
@@ -59,5 +65,5 @@ For Optional tasks, create a new branch called `Optional-Tasks`. Like above each
 2. **Style** Use `tailwind-css` to style the app to show off your frontend skills. (Use [this](https://tailwindcss.com/docs) to help you get started with `tailwind-css`)
 3. **Logic** There is never a single way to do anything in software engineering. Show us your engineering skills by either reorganizing the assessment project to be more "logical" to you. Alternatively, you can create a new branch called `Logic` where you may recreate the counter app, using the same tooling we have chosen here (Typescript, Parcel, React, Redux, Jest), to show us how you would have done this.
 4. **Feature** Add a login screen for this simple application that takes in a username and password (use `username = Test, password = 123456`), that has validation errors, as well as redirects the user to the counter app after successful login. If you decide to complete this task, you must also add all appropriate tests with `jest`.
-5. **Orchestration** ??
-6. **Deployment** ??
+5. **Deployment** Describe a monitoring strategy for the application. What metrics would you observe to monitor the application's availability and alarm on performance degradation? 
+6. **Orchestration** With your container image, develop a container deployment in a container orchestrator of your choosing.
