@@ -1,0 +1,8 @@
+{
+    "plugins": {
+        "tailwindcss": {},
+        "autoprefixer": {},
+        "postcss-import: {},
+        "postcss-100vh-fix": {},
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "include": [
+        "src",
+        "typings",
+    ],
+    "exclude": [
+        "src/**/*.spec.*"
+    ],
+    "extends": "./node_modules/react-redux-typescript-scripts/tsconfig.json",
+    "compilerOptions": {
+        "target": "es2021",
+        "strict": true,
+        "experimentalDecorators": true,
+        "jsxImportSource": "react",
+        "isolatedModules": true,
+        "importHelpers": true
+    }
+}
