@@ -40,12 +40,12 @@ Before beginning, fork this repository to your personal GitHub. After completing
 
 1. **Bug** COUNT-1; When accessing the website, I am presented with a blank screen.
 
-    > As a user of the Revlogical website, I should be presented with a counter app upon arrival at `localhost:1234`. However, currently, I am instead presented with a blank screen with no indication that the page is even loading.
+    > As a user of the Counter web app, I should have the ability to increment and decrement the counter. However, at some points when I click the button it simply fails.
 
     - Conditions of Satisfaction
       - When arriving at `localhost:1234`, the end-user should be presented with a counter app.
-      - The counter app should have an increment, decrement, and async buttons.
-      - The `count` should increment, decrement, or increment/decrement asynchronously depending on the button pressed.
+      - The counter app should have an increment, and decrement buttons.
+      - The `count` should increment, decrement, or increment/decrement asynchronously, depending on the button pressed, by 1.
       - Once the bug is found, it should be fixed, and a unit test created for it in the appropriate test file.
       - When `yarn test` is run, we should see a test with the appropriate description for the bug, and that it tests what it should, and passes.
 

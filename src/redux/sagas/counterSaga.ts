@@ -1,11 +1,11 @@
-import { put, call, cancelled, delay } from 'redux-saga/effects';
+import { put, cancelled, delay } from 'redux-saga/effects';
 import { SagaIterator } from 'redux-saga';
 import { asyncCounterActions } from '../actions/counter.actions';
 
 export function* incrementAsyncWorker(): SagaIterator {
     yield put(asyncCounterActions.incrementStarted());
     try {
-        yield call(delay, 1000);
+        yield delay(1000);
         if (Math.random() > 0.8) {
             throw new Error();
         }
@@ -22,7 +22,7 @@ export function* incrementAsyncWorker(): SagaIterator {
 export function* decrementAsyncWorker(): SagaIterator {
     yield put(asyncCounterActions.decrementStarted());
     try {
-        yield call(delay, 1000);
+        yield delay(1000);
         if (Math.random() > 0.8) {
             throw new Error();
         }

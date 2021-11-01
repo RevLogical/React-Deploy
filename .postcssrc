@@ -2,7 +2,7 @@
     "plugins": {
         "tailwindcss": {},
         "autoprefixer": {},
-        "postcss-import: {},
-        "postcss-100vh-fix": {},
+        "postcss-import: true,
+        "postcss-100vh-fix": true
     }
 }

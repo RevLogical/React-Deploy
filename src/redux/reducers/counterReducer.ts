@@ -33,14 +33,14 @@ export const counterReducer: Reducer<State['counter'], CounterAction | AsyncCoun
             return {
                 ...state,
                 isLoading: false,
-                count: state.count + 1,
+                count: state.count + 2,
             };
         }
         case AsyncCounterActionType.decrementDone: {
             return {
                 ...state,
                 isLoading: false,
-                count: state.count - 1,
+                count: state.count - 3,
             };
         }
         default:
