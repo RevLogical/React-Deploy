@@ -1,4 +1,4 @@
-# React-Deploy Assessment
+# RevLogical Assessment
 
 ## How To Use This Project
 
@@ -38,7 +38,26 @@ Before beginning, fork this repository to your personal GitHub. After completing
 
 ### Required Tasks
 
-1. **Bug** COUNT-1; When accessing the website, I am presented with a blank screen.
+1. **Feature** Add a login screen for this simple application that takes in a username and password (use `username = Test, password = 123456`), that has validation errors, as well as redirects the user to the counter app after successful login. If you decide to complete this task, you must also add all appropriate tests with `jest`.
+
+2. **Style** Use `tailwind-css` to style the app to show off your frontend skills. (Use [this](https://tailwindcss.com/docs) to help you get started with `tailwind-css`)
+
+### Optional Tasks
+
+For Optional tasks, create a new branch called `Optional-Tasks`. Like above each task should have its own commit with an appropriate commit message.
+
+1. **Explanation** Explain your solution to tasks 1 and 2. You should create a new `.md` file named `OptionalTask1.md` that contains the explanation to your solutions. If you would prefer you can just take notes on your own and do this optional task during the follow-up to this assessment.
+2. **Logic** There is never a single way to do anything in software engineering. Show us your engineering skills by either reorganizing the assessment project to be more "logical" to you. Alternatively, you can create a new branch called `Logic` where you may recreate the counter app, using the same tooling we have chosen here (Typescript, Parcel, React, Redux, Jest), to show us how you would have done this.
+3. **Deployment** Describe a monitoring strategy for the application. What metrics would you observe to monitor the application's availability and alarm on performance degradation? 
+4. **Orchestration** With your container image, develop a container deployment in a container orchestrator of your choosing.
+5. **Deploy** COUNT-2;  
+
+    > As a DevOps engineer, I need to deploy the React application in a production container orchestration cluster. 
+
+    - Conditions of Satisfaction
+      - A Dockerfile
+      - A [draw.io](https://draw.io) deployment architecture
+6. **Bug** COUNT-1; When attempting to use the counter app, the count does not increment or decrement by 1.
 
     > As a user of the Counter web app, I should have the ability to increment and decrement the counter. However, at some points when I click the button it simply fails.
 
@@ -48,22 +67,3 @@ Before beginning, fork this repository to your personal GitHub. After completing
       - The `count` should increment, decrement, or increment/decrement asynchronously, depending on the button pressed, by 1.
       - Once the bug is found, it should be fixed, and a unit test created for it in the appropriate test file.
       - When `yarn test` is run, we should see a test with the appropriate description for the bug, and that it tests what it should, and passes.
-
-2. **Deploy** COUNT-2;  
-
-    > As a DevOps engineer, I need to deploy the React application in a production container orchestration cluster. 
-
-    - Conditions of Satisfaction
-      - A Dockerfile
-      - A [draw.io](https://draw.io) deployment architecture
-
-### Optional Tasks
-
-For Optional tasks, create a new branch called `Optional-Tasks`. Like above each task should have its own commit with an appropriate commit message.
-
-1. **Explanation** Explain your solution to tasks 1 and 2. You should create a new `.md` file named `OptionalTask1.md` that contains the explanation to your solutions. If you would prefer you can just take notes on your own and do this optional task during the follow-up to this assessment.
-2. **Style** Use `tailwind-css` to style the app to show off your frontend skills. (Use [this](https://tailwindcss.com/docs) to help you get started with `tailwind-css`)
-3. **Logic** There is never a single way to do anything in software engineering. Show us your engineering skills by either reorganizing the assessment project to be more "logical" to you. Alternatively, you can create a new branch called `Logic` where you may recreate the counter app, using the same tooling we have chosen here (Typescript, Parcel, React, Redux, Jest), to show us how you would have done this.
-4. **Feature** Add a login screen for this simple application that takes in a username and password (use `username = Test, password = 123456`), that has validation errors, as well as redirects the user to the counter app after successful login. If you decide to complete this task, you must also add all appropriate tests with `jest`.
-5. **Deployment** Describe a monitoring strategy for the application. What metrics would you observe to monitor the application's availability and alarm on performance degradation? 
-6. **Orchestration** With your container image, develop a container deployment in a container orchestrator of your choosing.
