@@ -1,0 +1,16 @@
+# For local development
+version: '3.8'
+
+services:
+  react-client:
+    container_name: react-client-dev
+    image: react-client-dev
+    stdin_open: true
+    build:
+      target: development
+      dockerfile: Dockerfile
+      context: .
+    volumes:
+      - ./src:/app/src
+    ports:
+      - 3000:1234

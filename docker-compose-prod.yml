@@ -1,0 +1,10 @@
+version: '3.8'
+
+services:
+  react-client:
+    container_name: react-client-prod
+    image: react-client-prod
+    build:
+      target: production
+      dockerfile: Dockerfile
+      context: .
